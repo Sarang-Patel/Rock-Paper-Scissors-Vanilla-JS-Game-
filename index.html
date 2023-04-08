@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock paper scissor</title>
+</head>
+<body>
+    
+    <section class="game">
+        <div class="score">
+            <div class="player-score">
+                <h2>Player score</h2>
+                <p>0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computer score</h2>
+                <p>0</p>
+            </div>
+            <button class="menu">Menu</button>
+        </div>
+
+        <div class="intro">
+            <h1>Rock Paper and Scissors</h1>
+            <button>Lets Play!!</button>
+        </div>
+
+        <div class="match fadeOut">
+            <div class="winner">Choose an option:</div>
+            <div class="hands">
+                <img src="./asset/rock.png" alt="" class="player-hand">
+                <img src="./asset/rock.png" alt="" class="computer-hand">
+            </div>
+            <div class="options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+    <div class="modal">
+        <div class="content">
+            <p>Player Won!!!</p>
+            <div class="btns">
+                <button class="play-again">Play Again</button>
+                <button class="exit">Menu</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
